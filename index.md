@@ -1,6 +1,6 @@
 # AccelerateAI
 
-<!-- TODO: logo -->
+![AccelerateAI logo](images/aai-logo.svg)
 
 <!-- TODO: funder information? -->
 
