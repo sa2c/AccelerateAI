@@ -1,6 +1,4 @@
-# AccelerateAI
-
-![AccelerateAI logo](images/aai-logo.svg)
+# ![AccelerateAI](images/aai-logo.svg)
 
 <!-- TODO: funder information? -->
 
