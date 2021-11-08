@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="{{ '/images/favicon.png' | relative_url }}">
     {% include head-custom.html %}
 
 {% seo %}
@@ -16,7 +16,7 @@
     <header>
       <div class="container">
         <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1><img src="/images/aai-logo.svg" alt="AccelerateAI"></h1>
+          <h1><img src="{{ '/images/aai-logo.svg' | relative_url }}" alt="AccelerateAI"></h1>
         </a>
 
       </div>
