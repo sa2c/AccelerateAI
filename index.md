@@ -1,5 +1,3 @@
-# ![AccelerateAI](images/aai-logo.svg)
-
 <!-- TODO: funder information? -->
 
 ## Contents
