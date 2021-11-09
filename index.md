@@ -1,5 +1,5 @@
 <!-- TODO: funder/citation information? -->
-![Welsh Government/ERDF logo](images/ERDF.svg)
+![Welsh Government/ERDF logo](images/ERDF.svg){: width="300" }
 
 ## Contents
 
