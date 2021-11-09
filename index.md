@@ -1,4 +1,5 @@
-<!-- TODO: funder information? -->
+<!-- TODO: funder/citation information? -->
+![Welsh Government/ERDF logo](images/ERDF.svg)
 
 ## Contents
 
