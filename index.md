@@ -3,8 +3,8 @@
 
 AccelerateAI is a compute cluster designed to enable high-speed Artificial
 Intelligence and Machine Learning computations, by making use of latest-generation
-NVIDIA A100 GPUs. It is available to all researchers at Swansea University,
-free at the point of use.
+NVIDIA A100 GPUs. It is available to all researchers at Swansea, Aberystwyth, Bangor,
+and Cardiff Universities, free at the point of use.
 
 Research outputs (e.g. conference talks, papers) presenting work enabled by
 AccelerateAI should include, where possible, the ERDF logo above. Where this
