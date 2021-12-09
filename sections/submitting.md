@@ -151,9 +151,37 @@ Most of the options are the same as explained above. The differences:
   GPU pair allocated to the job. (It is not currently possible to allocate
   more than 8 CPU cores per GPU pair.)
 
+
+### Four-GPU job
+
+```
+#!/bin/bash
+
+#SBATCH --account=scw0000
+#SBATCH --partition=accel_ai
+#SBATCH --job-name=training_4gpu
+#SBATCH --output=training.out.%j
+#SBATCH --error=training.err.%j
+#SBATCH --gres=gpu:4
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=0-6:00:00
+
+module load anaconda/2021.05
+source activate tf_training
+
+echo "Job ${SLURM_JOB_ID} is running on ${HOSTNAME}."
+echo "It has access to GPUs ${CUDA_VISIBLE_DEVICES}."
+
+python3 training.py
+```
+
+The options are as described above, but now using 4 GPUs and 16 CPU cores.
+
+
 ### Many-GPU job
 
-To use more than two GPUs, please get in touch with the [SA2C RSE team][sa2c-support]
+To use more than four GPUs, please get in touch with the [SA2C RSE team][sa2c-support]
 so that we can help you check that your workload scales up on AccelerateAI.
 
 [portal]: https://portal.supercomputing.wales
