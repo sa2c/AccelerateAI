@@ -1,0 +1,54 @@
+h1 {
+    color:navy;
+    font-family: "Book Antiqua", Georgia, serif;
+    background-color: lightgrey;
+    text-align: left;
+    font-size: x-large;
+    margin: 0px 25px 50px;
+}
+
+h2 {
+    color:mediumblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: larger;
+    border-bottom: 3px solid lightgrey;
+    margin: 15px 25px;
+}
+
+h3 {
+    color:dodgerblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: large;
+    margin: 10px 25px;
+}
+
+body {
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: medium;
+    margin: auto;
+    padding: 3px;
+}
+
+a {
+   color:dodgerblue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: navy;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: goldenrod;
+}
