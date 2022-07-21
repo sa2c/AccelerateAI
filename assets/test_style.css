@@ -1,7 +1,9 @@
+h1, h2, h3 {
+    font-family: "Bahnschrift Semilight", Tahoma, Verdana, sans-serif;
+}
+
 h1 {
     color:navy;
-    font-family: "Book Antiqua", Georgia, serif;
-    background-color: lightgrey;
     text-align: left;
     font-size: x-large;
     margin: 0px 25px 50px;
@@ -9,16 +11,14 @@ h1 {
 
 h2 {
     color:mediumblue;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
     font-size: larger;
-    border-bottom: 3px solid lightgrey;
+    border-bottom: 3px solid navy;
     margin: 15px 25px;
 }
 
 h3 {
     color:dodgerblue;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: left;
     font-size: large;
     margin: 10px 25px;
@@ -26,10 +26,11 @@ h3 {
 
 body {
     color: black;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     font-size: medium;
-    margin: auto;
+    margin: auto 25px;
     padding: 3px;
 }
 
