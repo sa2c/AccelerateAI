@@ -1,7 +1,7 @@
 div {
     background-color: white;
-    margin: 25px auto;
-    padding: 10px;
+    margin: 0px auto 25px;
+    padding: 0px;
     border-radius: 5px;
 }
 
@@ -9,7 +9,7 @@ body {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    background-color: aliceblue;
+    background-color: dodgerblue;
     font-size: large;
     padding: 0;
 }
@@ -54,7 +54,7 @@ ul {
 #headlist a {
     display: block;
     color: navy;
-    padding: 20px 10px;
+    padding: 22px 10px;
     text-decoration: none;
     font-size: x-large;
     border-right: 3px double dodgerblue;
