@@ -13,7 +13,6 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     font-size: large;
-    margin: auto 25px;
     padding: 3px;
 }
 
@@ -23,7 +22,7 @@ code {
     text-align: left;
     font-size: large;
     background-color: white;
-    margin: inherit;
+    margin: auto;
     padding 3px;
 }
 
@@ -37,9 +36,10 @@ ul {
 }
 
 #headlist {
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
+    /* top: 0; */
     width: 100%;
+    height: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
