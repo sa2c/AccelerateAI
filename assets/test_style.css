@@ -1,7 +1,7 @@
 div {
     background-color: white;
     margin: 0px auto 25px;
-    padding: 0px;
+    padding: 0px 5px;
     border-radius: 5px;
 }
 
@@ -41,7 +41,7 @@ ul {
     height: auto;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0px 5px;
     overflow: hidden;
     background-color: aliceblue;
     color: navy;
@@ -55,14 +55,14 @@ ul {
 #headlist a {
     display: block;
     color: navy;
-    padding: 25px 10px;
+    padding: auto 10px;
     text-decoration: none;
     font-size: x-large;
     border-right: 3px double dodgerblue;
 }
 
 #headlist #a-title {
-    padding: 0px 10px;
+    padding: 5px 10px;
 }
 
 #headlist a:hover {
