@@ -22,22 +22,18 @@ code {
     font-family:'Courier New', Courier, monospace;
     text-align: left;
     font-size: large;
-    border: 3px solid navy;
     background-color: white;
-    margin: auto;
+    margin: auto 25px;
     padding 3px;
 }
 
 p {
     margin: auto 25px;
-    border-radius: 10px;
-    border: 2px solid dodgerblue;
 }
 
 ul {
     list-style-type: square;
-    border-radius: 5px;
-    border: 2px dotted black;
+    margin: auto 35px;
 }
 
 h1, h2, h3 {
@@ -46,8 +42,8 @@ h1, h2, h3 {
 
 h1 {
     color:navy;
-    text-align: left;
-    font-size: x-large;
+    text-align: center;
+    font-size: xx-large;
     margin: 10px 25px 50px;
     border-bottom: 6px double navy;
 }
