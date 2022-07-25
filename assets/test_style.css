@@ -14,7 +14,7 @@ body {
     text-align: left;
     background-color: aliceblue;
     font-size: large;
-    padding: 10px;
+    padding: 0;
     border-radius: 10px;
     border: 3px solid navy;
 }
@@ -32,6 +32,7 @@ code {
 
 p {
     margin: 25px;
+    padding: 10px;
 }
 
 ul {
@@ -59,8 +60,7 @@ ul {
 #headlist a {
     display: block;
     color: navy;
-    padding: auto 10px;
-    height: 100%;
+    padding: 25px 15px;
     text-decoration: none;
     font-size: x-large;
     border-right: 3px double dodgerblue;
