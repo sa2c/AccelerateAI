@@ -34,6 +34,27 @@ body {
     padding: 3px;
 }
 
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:lightblue;
+    margin: auto 25px;
+    padding: 3px;
+}
+
+code {
+    color: black;
+    background-color: lightblue;
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: large;
+    margin: auto 25px;
+    padding 3px;
+}
+
+ul {
+    list-style-type: square;
+}
+
 a {
    color:dodgerblue;
 }
