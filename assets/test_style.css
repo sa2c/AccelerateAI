@@ -1,5 +1,5 @@
 div {
-    background-color:aliceblue;
+    background-color: white;
     margin: auto;
 }
 
@@ -12,9 +12,11 @@ body {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    background-color: dodgerblue;
+    background-color: aliceblue;
     font-size: large;
-    padding: 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid navy;
 }
 
 pre {
@@ -29,12 +31,12 @@ code {
 }
 
 p {
-    margin: auto 25px;
+    margin: 25px;
 }
 
 ul {
     list-style-type: square;
-    margin: auto 15px;
+    margin: 10px 15px;
 }
 
 #headlist {
@@ -58,7 +60,9 @@ ul {
     display: block;
     color: navy;
     padding: auto 10px;
+    height: 100%;
     text-decoration: none;
+    font-size: x-large;
     border-right: 3px double dodgerblue;
 }
 
@@ -72,7 +76,7 @@ ul {
     font-style: italic;
 }
 
-#headlist .active {
+.active {
     background-color:navy;
     color: aliceblue;
     font-style: italic;
