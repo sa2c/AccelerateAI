@@ -1,7 +1,7 @@
 div {
     background-color: white;
-    margin: 0px auto 25px;
-    padding: 0px 5px;
+    margin: 10px 25px;
+    padding: 10px 15px;
     border-radius: 5px;
 }
 
@@ -55,7 +55,7 @@ ul {
 #headlist a {
     display: block;
     color: navy;
-    padding: auto 10px;
+    padding: 15px 10px;
     text-decoration: none;
     font-size: x-large;
     border-right: 3px double dodgerblue;
