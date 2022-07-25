@@ -4,7 +4,7 @@ div {
 }
 
 span {
-    background-color:lightblue;
+    background-color:blue;
     margin: auto;
 }
 
@@ -23,7 +23,7 @@ code {
     text-align: left;
     font-size: large;
     background-color: white;
-    margin: auto 25px;
+    margin: inherit;
     padding 3px;
 }
 
@@ -34,6 +34,36 @@ p {
 ul {
     list-style-type: square;
     margin: auto 35px;
+}
+
+#headlist {
+    float: left;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+    color: navy;
+}
+
+#headlist a {
+    display: block;
+    color: navy;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#headlist a:hover {
+    background-color: dodgerblue;
+}
+
+#headlist a:active {
+    background-color:navy;
+    color: aliceblue;
 }
 
 h1, h2, h3 {
