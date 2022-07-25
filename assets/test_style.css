@@ -26,7 +26,6 @@ h3 {
 
 body {
     color: black;
-    background-color:lightgrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     font-size: medium;
@@ -34,25 +33,26 @@ body {
     padding: 3px;
 }
 
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:lightblue;
-    margin: auto 25px;
-    padding: 3px;
-}
-
 code {
     color: black;
-    background-color: lightblue;
     font-family:'Courier New', Courier, monospace;
     text-align: left;
     font-size: large;
-    margin: auto 25px;
+    margin: auto;
     padding 3px;
 }
 
 ul {
     list-style-type: square;
+}
+
+div {
+    background-color:aliceblue;
+    margin: auto;
+    border-radius: 40px 10px;
+    border-style: double;
+    border-width: 2px;
+    border-color:dodgerblue;
 }
 
 a {
