@@ -49,18 +49,19 @@ ul {
 
 #headlist li {
     float: left;
+    padding: 0;
 }
 
 #headlist a {
     display: block;
     color: navy;
-    padding: 22px 10px;
+    padding: 25px 10px;
     text-decoration: none;
     font-size: x-large;
     border-right: 3px double dodgerblue;
 }
 
-#a-title {
+#headlist #a-title {
     padding: 0px 10px;
 }
 
@@ -88,7 +89,7 @@ h1 {
     color:navy;
     text-align: center;
     font-size: xx-large;
-    margin: 15px 25px 50px;
+    margin: 15px 25px 30px;
     border-bottom: 6px double navy;
     padding: 5px;
 }
