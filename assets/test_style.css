@@ -1,13 +1,15 @@
 div {
     background-color: white;
     margin: 25px auto;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 body {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    background-color: blue;
+    background-color: aliceblue;
     font-size: large;
     padding: 0;
 }
