@@ -24,13 +24,12 @@ code {
 }
 
 p {
-    margin: 10px 25px;
-    padding: 5px;
+    margin: 10px 25px 20px;
 }
 
 ul {
     list-style-type: square;
-    margin: 10px 15px;
+    margin: 10px 15px 20px;
 }
 
 #headlist {
@@ -40,7 +39,7 @@ ul {
     height: auto;
     list-style-type: none;
     margin: 0;
-    paddin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: aliceblue;
     color: navy;
@@ -59,7 +58,7 @@ ul {
     border-right: 3px double dodgerblue;
 }
 
-#homeimg {
+#a-title {
     padding: 0px 10px;
 }
 
