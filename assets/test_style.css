@@ -37,7 +37,6 @@ ul {
 }
 
 #headlist {
-    float: left;
     position: fixed;
     top: 0;
     width: 100%;
@@ -49,10 +48,13 @@ ul {
     color: navy;
 }
 
+#headlist li {
+    float: left;
+}
+
 #headlist a {
     display: block;
     color: navy;
-    text-align: center;
     padding: 10px;
     text-decoration: none;
 }

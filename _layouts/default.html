@@ -15,20 +15,19 @@
 
     <header>
       <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1><img src="{{ '/images/aai-logo.svg' | relative_url }}" alt="AccelerateAI"></h1>
-        </a>
+        <ul id="headlist">
+          <li><a id="a-title" href="{{ '/' | relative_url }}">
+            <h1><img src="{{ '/images/aai-logo.svg' | relative_url }}" alt="AccelerateAI"></h1>
+          </a></li>
+          <li><a href="{{'/sections/access' | relative_url }}">Access</a></li>
+          <li><a href="{{'/sections/connecting' | relative_url }}">Connect</a></li>
+          <li><a href="{{'/sections/installing' | relative_url }}">Installing software</a></li>
+          <li><a href="{{'/sections/understanding' | relative_url }}">Architecture</a></li>
+          <li><a href="{{'/sections/running' | relative_url }}">Interactive jobs</a></li>
+          <li><a href="{{'/sections/submitting' | relative_url }}">Submitting jobs</a></li>
+        </ul>    
       </div>
-    </header>
-
-    <ul id="headlist">
-      <li><a href="{{'/sections/access' | relative_url }}">Access</a></li>
-      <li><a href="{{'/sections/connecting' | relative_url }}">Connect</a></li>
-      <li><a href="{{'/sections/installing' | relative_url }}">Installing software</a></li>
-      <li><a href="{{'/sections/understanding' | relative_url }}">Architecture</a></li>
-      <li><a href="{{'/sections/running' | relative_url }}">Interactive jobs</a></li>
-      <li><a href="{{'/sections/submitting' | relative_url }}">Submitting jobs</a></li>
-    </ul>
+    </header>    
 
     <div class="container">
       <section id="main_content">
