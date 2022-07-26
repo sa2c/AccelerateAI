@@ -1,7 +1,8 @@
 div {
     background-color: aliceblue;
-    margin: 10px 25px;
-    padding: 10px 15px;
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 10px auto;
     border-radius: 5px;
     border: 3px solid dodgerblue;
 }
@@ -11,12 +12,14 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     background-color: white;
-    font-size: large;
     padding: 0;
 }
 
 pre {
-    margin: auto 25px;
+    margin: auto;
+    border: none;
+    overflow-x: scroll;
+    background-color: white;
 }
 
 code {
@@ -27,12 +30,12 @@ code {
 }
 
 p {
-    margin: 10px 25px 20px;
+    margin: 10px auto 20px;
 }
 
 ul {
     list-style-type: square;
-    margin: 10px 15px 20px;
+    margin: 10px auto 20px;
 }
 
 #headlist {
@@ -47,6 +50,37 @@ ul {
     background-color: aliceblue;
     color: navy;
 }
+@media only screen and (min-width: 425px) { /* Phones and small devices - use hamburger menu, keep AccelerateAI logo*/
+    html {
+        font-size: medium;
+    }
+
+    #headlist a { /* Hide navbar buttons in favour of hamburger menu */
+        display: none;
+    }
+
+    #headlist li.dropdown {
+        display: inline-block;
+    }
+
+    #headlist #a-title {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1500px) { /* Laptops and landscape - use full navbar*/
+    html {
+        font-size: large;
+    }
+
+    #headlist a { /* Can now fit all items on navbar */
+        display: block;
+    }
+
+    #headlist li.dropdown { /* No longer need navigation dropdown */
+        display: none;
+    }
+}
 
 #headlist li {
     float: left;
@@ -54,7 +88,6 @@ ul {
 }
 
 #headlist a {
-    display: block;
     color: navy;
     padding: 8px 10px;
     text-decoration: none;
@@ -66,20 +99,61 @@ ul {
     padding: 5px 10px;
 }
 
+#headlist #a-title img {
+    max-width: 100%;
+    height: auto;
+}
+
 #headlist a:hover {
     background-color: dodgerblue;
 }
 
-#headlist a:active {
+#headlist a:active, .dropdown:hover .dropbtn, .dropdown-content a:active {
     background-color:navy;
     color: aliceblue;
-    font-style: italic;
 }
 
-.active {
-    background-color:navy;
-    color: aliceblue;
-    font-style: italic;
+#headlist li.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    border: 3px solid dodgerblue;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px auto 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 160px;
+}
+
+.dropbtn {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: navy;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-top: 3px double dodgerblue;
+}
+
+.dropdown-content a:hover {
+    text-decoration: underline;
 }
 
 h1, h2, h3 {
@@ -90,7 +164,7 @@ h1 {
     color:navy;
     text-align: center;
     font-size: xx-large;
-    margin: 15px 25px 30px;
+    margin: 15px auto 30px;
     border-bottom: 6px double navy;
     padding: 5px;
 }
@@ -100,7 +174,7 @@ h2 {
     text-align: left;
     font-size: larger;
     border-bottom: 3px solid navy;
-    margin: 15px 25px;
+    margin: 15px auto;
     padding: 5px;
 }
 
@@ -108,7 +182,7 @@ h3 {
     color:dodgerblue;
     text-align: left;
     font-size: large;
-    margin: 10px 25px;
+    margin: 10px auto;
 }
 
 a {

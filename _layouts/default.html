@@ -10,7 +10,7 @@
 
 {% seo %}
   </head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <body>
 
     <header>
@@ -25,6 +25,17 @@
           <li><a href="{{'/sections/understanding' | relative_url }}">Architecture</a></li>
           <li><a href="{{'/sections/running' | relative_url }}">Interactive jobs</a></li>
           <li><a href="{{'/sections/submitting' | relative_url }}">Submitting jobs</a></li>
+          <li class="dropdown" style="float:right;">
+            <a href="javascript:void(0)" class="dropbtn">Navigation</a>
+            <div class="dropdown-content">
+              <a href="{{'/sections/access' | relative_url }}">Access</a>
+              <a href="{{'/sections/connecting' | relative_url }}">Connect</a>
+              <a href="{{'/sections/installing' | relative_url }}">Software</a>
+              <a href="{{'/sections/understanding' | relative_url }}">Architecture</a>
+              <a href="{{'/sections/running' | relative_url }}">Interactive</a>
+              <a href="{{'/sections/submitting' | relative_url }}">Submit jobs</a>
+            </div>
+          </li>
         </ul>    
       </div>
     </header>    
