@@ -77,7 +77,11 @@ ul {
         display: block;
     }
 
-    #headlist li.dropdown { /* No longer need navigation dropdown */
+    #headlist li .dropdown { /* No longer need navigation dropdown */
+        display: none;
+    }
+
+    #headlist li .dropbtn {
         display: none;
     }
 }
@@ -129,7 +133,7 @@ ul {
     min-width: 160px;
 }
 
-.dropbtn {
+#headlist li .dropbtn {
     background-color: dodgerblue;
     color: white;
     text-align: center;
@@ -140,7 +144,7 @@ ul {
     text-decoration: none;
 }
 
-.dropdown:hover .dropdown-content {
+#headlist li .dropdown:hover .dropdown-content {
     display: block;
 }
 
