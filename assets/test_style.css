@@ -129,7 +129,7 @@ ul {
     min-width: 160px;
 }
 
-#headlist li .dropbtn {
+.dropbtn {
     background-color: dodgerblue;
     color: white;
     text-align: center;
