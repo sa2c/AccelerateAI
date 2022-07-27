@@ -121,7 +121,7 @@ ul {
     display: inline-block;
 }
 
-.dropdown-content {
+#headlist li.dropdown .dropdown-content {
     display: none;
     position: absolute;
     right: 0;
