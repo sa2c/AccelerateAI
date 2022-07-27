@@ -59,12 +59,12 @@ ul {
         display: none;
     }
 
-    #headlist li.dropdown {
-        display: inline-block;
-    }
-
     #headlist #a-title {
         display: block;
+    }
+
+    #headlist li.dropdown {
+        display: inline-block;
     }
 }
 
@@ -77,11 +77,7 @@ ul {
         display: block;
     }
 
-    #headlist li .dropdown { /* No longer need navigation dropdown */
-        display: none;
-    }
-
-    #headlist li .dropbtn {
+    #headlist li.dropdown { /* No longer need navigation dropdown */
         display: none;
     }
 }
@@ -137,14 +133,18 @@ ul {
     background-color: dodgerblue;
     color: white;
     text-align: center;
-    padding: 8px 10px;
+    padding: 10px 10px;
     font-size: x-large;
     border: none;
     cursor: pointer;
     text-decoration: none;
 }
 
-#headlist li .dropdown:hover .dropdown-content {
+#headlist .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#headlist .dropbtn:hover .dropdown-content {
     display: block;
 }
 
