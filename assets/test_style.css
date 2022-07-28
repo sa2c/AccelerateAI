@@ -18,7 +18,7 @@ body {
 pre {
     margin: auto;
     border: none;
-    overflow-x: scroll;
+    overflow-x: auto;
     background-color: white;
 }
 
