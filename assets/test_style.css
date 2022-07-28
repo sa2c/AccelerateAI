@@ -39,8 +39,6 @@ ul {
 }
 
 #headlist {
-    width: 100%;
-    height: auto;
     list-style-type: none;
     margin: 0;
     padding: 0px 5px;
@@ -97,6 +95,8 @@ ul {
     color: white;
     text-align: center;
     padding: 10px 10px;
+    margin: 0;
+    margin-right: 5px;
     font-size: x-large;
     border: none;
     cursor: pointer;
