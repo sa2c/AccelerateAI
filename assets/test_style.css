@@ -134,12 +134,12 @@ ul {
         display: none;
     }
 
-    #headlist #a-title {
+    #headlist li.dropdown .dropdown-content a {
         display: block;
     }
 
-    #headlist li.dropdown {
-        display: inline-block;
+    #headlist #a-title {
+        display: block;
     }
 
     #headlist li a.dropbtn {
@@ -154,10 +154,6 @@ ul {
 
     #headlist a { /* Can now fit all items on navbar */
         display: block;
-    }
-
-    #headlist li.dropdown { /* No longer need navigation dropdown */
-        display: none;
     }
 
     #headlist li a.dropbtn {
