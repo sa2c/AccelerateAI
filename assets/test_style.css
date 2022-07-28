@@ -82,7 +82,7 @@ ul {
 }
 
 #headlist li.dropdown .dropdown-content {
-    display: block;
+    display: none;
     position: absolute;
     right: 0;
     border: 3px solid dodgerblue;
@@ -154,6 +154,10 @@ ul {
 
     #headlist a { /* Can now fit all items on navbar */
         display: block;
+    }
+
+    #headlist li.dropdown {
+        display: none;
     }
 
     #headlist li a.dropbtn {
