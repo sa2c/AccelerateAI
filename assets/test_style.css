@@ -30,7 +30,7 @@ code {
 }
 
 p {
-    margin: 10px auto 20px;
+    margin: 10px 5px 20px;
 }
 
 ul {
@@ -39,9 +39,9 @@ ul {
 }
 
 #headlist {
-    /* position: fixed; */
-    /* top: 0; */
-    width: 100%;
+    position: fixed;
+    top: 0;
+    max-width: 100%;
     height: auto;
     list-style-type: none;
     margin: 0;
@@ -49,6 +49,7 @@ ul {
     overflow: hidden;
     background-color: aliceblue;
     color: navy;
+    border-bottom: 6px double dodgerblue;
 }
 
 #headlist li {
@@ -84,6 +85,7 @@ ul {
 #headlist li.dropdown .dropdown-content {
     display: none;
     position: absolute;
+    margin: 0px;
     right: 0;
     border: 3px solid dodgerblue;
     border-radius: 0px 0px 5px 5px;
