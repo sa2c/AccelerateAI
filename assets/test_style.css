@@ -39,9 +39,7 @@ ul {
 }
 
 #headlist {
-    position: fixed;
-    top: 0;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     list-style-type: none;
     margin: 0;
