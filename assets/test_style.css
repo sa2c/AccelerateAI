@@ -50,6 +50,81 @@ ul {
     background-color: aliceblue;
     color: navy;
 }
+
+#headlist li {
+    float: left;
+    padding: 0;
+}
+
+#headlist a {
+    color: navy;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: x-large;
+    border-right: 3px double dodgerblue;
+}
+
+#headlist #a-title {
+    padding: 5px 10px;
+}
+
+#headlist #a-title img {
+    max-width: 100%;
+    height: auto;
+}
+
+#headlist a:hover {
+    background-color: dodgerblue;
+}
+
+#headlist li.dropdown {
+    display: inline-block;
+}
+
+#headlist li.dropdown .dropdown-content {
+    display: block;
+    position: absolute;
+    right: 0;
+    border: 3px solid dodgerblue;
+    border-radius: 0px 0px 5px 5px;
+    padding: 5px auto 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 160px;
+}
+
+#headlist li a.dropbtn {
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#headlist li.dropdown:hover .dropdown-content, .dropdown-content a {
+    display: block;
+}
+
+#headlist a:active, #headlist li.dropdown:hover .dropbtn, .dropdown-content a:active {
+    background-color:navy;
+    color: aliceblue;
+}
+
+.dropdown-content a {
+    display: block;
+    color: navy;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-top: 3px double dodgerblue;
+    border-right: none;
+}
+
+.dropdown-content a:hover {
+    text-decoration: underline;
+}
+
 @media only screen and (min-width: 425px) { /* Phones and small devices - use hamburger menu, keep AccelerateAI logo*/
     html {
         font-size: medium;
@@ -88,80 +163,6 @@ ul {
     #headlist li a.dropbtn {
         display: none;
     }
-}
-
-#headlist li {
-    float: left;
-    padding: 0;
-}
-
-#headlist a {
-    color: navy;
-    padding: 8px 10px;
-    text-decoration: none;
-    font-size: x-large;
-    border-right: 3px double dodgerblue;
-}
-
-#headlist #a-title {
-    padding: 5px 10px;
-}
-
-#headlist #a-title img {
-    max-width: 100%;
-    height: auto;
-}
-
-#headlist a:hover {
-    background-color: dodgerblue;
-}
-
-#headlist li.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-#headlist li.dropdown .dropdown-content {
-    display: block;
-    position: absolute;
-    right: 0;
-    border: 3px solid dodgerblue;
-    border-radius: 0px 0px 5px 5px;
-    padding: 5px auto 10px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    min-width: 160px;
-}
-
-#headlist li a.dropbtn {
-    background-color: dodgerblue;
-    color: white;
-    text-align: center;
-    padding: 10px 10px;
-    font-size: x-large;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-#headlist li.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-#headlist a:active, #headlist li.dropdown:hover .dropbtn, .dropdown-content a:active {
-    background-color:navy;
-    color: aliceblue;
-}
-
-.dropdown-content a {
-    display: block;
-    color: navy;
-    padding: 8px 10px;
-    text-decoration: none;
-    border-top: 3px double dodgerblue;
-}
-
-.dropdown-content a:hover {
-    text-decoration: underline;
 }
 
 h1, h2, h3 {
