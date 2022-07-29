@@ -58,7 +58,6 @@ ul {
     padding: 8px 10px 9px;
     text-decoration: none;
     font-size: x-large;
-    border-right: 3px double dodgerblue;
 }
 
 #headlist #a-title {
@@ -124,7 +123,38 @@ ul {
     text-decoration: underline;
 }
 
-@media only screen and (min-width: 425px) { /* Phones and small devices - use hamburger menu, keep AccelerateAI logo*/
+@media only screen and (max-width: 472px) { /* Use AccelerateAI logo itself as menu button */
+    html {
+        font-size: medium;
+    }
+
+    #headlist a { /* Hide navbar buttons in favour of hamburger menu */
+        display: none;
+    }
+
+    #headlist #a-title {
+        display: block;
+        border: none;
+    }
+
+    #headlist li a.dropbtn {
+        display: none;
+    }
+
+    #headlist #a-title .dropdown-content {
+        left: 0;
+    }
+
+    #headlist li.dropdown .dropdown-content a {
+        display: block;
+    }
+
+    #headlist #a-title:hover .dropdown-content, .dropdown-content a { /* Activate dropdown when hovering over logo */
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 472px) { /* Phones and small devices - use hamburger menu, keep AccelerateAI logo*/
     html {
         font-size: medium;
     }
@@ -161,6 +191,10 @@ ul {
 
     #headlist li a.dropbtn {
         display: none;
+    }
+    
+    #headlist a {
+        border-right: 3px double dodgerblue;
     }
 }
 
