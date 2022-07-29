@@ -60,6 +60,10 @@ ul {
     font-size: x-large;
 }
 
+#headlist #logo {
+    margin: auto;
+}
+
 #headlist #logo #a-title {
     padding: 5px 10px;
 }
