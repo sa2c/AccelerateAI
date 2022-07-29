@@ -15,8 +15,9 @@
 
     <div class="container">
       <ul id="headlist"> 
-        <li><a id="a-title" href="{{ '/' | relative_url }}">
-          <img src="{{ '/images/aai-logo.svg' | relative_url }}" alt="AccelerateAI">
+        <li id="logo"><a id="a-title" href="{{ '/' | relative_url }}">
+            <img src="{{ '/images/aai-logo.svg' | relative_url }}" alt="AccelerateAI">
+          </a>
           <div class="dropdown-content"> <!-- At small enough screen sizes use logo as dropdown source -->
             <a href="{{'/sections/access' | relative_url }}">Access</a>
             <a href="{{'/sections/connecting' | relative_url }}">Connect</a>
@@ -25,7 +26,7 @@
             <a href="{{'/sections/running' | relative_url }}">Interactive</a>
             <a href="{{'/sections/submitting' | relative_url }}">Submit jobs</a>
           </div>
-        </a></li>
+        </li>
         <li><a href="{{'/sections/access' | relative_url }}">Access</a></li>
         <li><a href="{{'/sections/connecting' | relative_url }}">Connect</a></li>
         <li><a href="{{'/sections/installing' | relative_url }}">Installing software</a></li>
