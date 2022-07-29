@@ -136,6 +136,15 @@ ul {
     color: aliceblue;
 }
 
+#headlist #smallmenu {
+    background-color: aliceblue;
+}
+
+#headlist #smallmenu a.dropbtn img {
+    max-width: 25%;
+    height: auto;
+}
+
 #headlist #smallmenu .dropdown-content {
     display: none;
 }
@@ -181,7 +190,11 @@ ul {
         display: block;
     }
 
-    #headlist #smallmenu .dropbtn:hover .dropdown-content, .dropdown-content a{
+    #headlist #smallmenu:hover .dropdown-content {
+        display: block;
+    }
+
+    #headlist #smallmenu:hover .dropdown-content a {
         display: block;
     }
 }
@@ -207,6 +220,14 @@ ul {
         display: block;
     }
     /* No need for small menu dropdown */
+    #headlist #smallmenu {
+        display: none;
+    }
+
+    #headlist #smallmenu a.dropbtn {
+        display: none;
+    }
+
     #headlist #smallmenu .dropdown-content {
         display: none;
     }
