@@ -69,6 +69,10 @@ ul {
     height: auto;
 }
 
+#headlist #a-title .dropdown-content, .dropdown-content a {
+    display: none;
+}
+
 #headlist a:hover {
     background-color: dodgerblue;
 }
@@ -128,13 +132,14 @@ ul {
         font-size: medium;
     }
 
-    #headlist a { /* Hide navbar buttons in favour of hamburger menu */
+    #headlist a { /* Hide navbar buttons in favour of dropdown menu */
         display: none;
     }
 
     #headlist #a-title {
         display: block;
         border: none;
+        margin: auto;
     }
 
     #headlist li a.dropbtn {
@@ -143,10 +148,6 @@ ul {
 
     #headlist #a-title .dropdown-content {
         left: 0;
-    }
-
-    #headlist li.dropdown .dropdown-content a {
-        display: block;
     }
 
     #headlist #a-title:hover .dropdown-content, .dropdown-content a { /* Activate dropdown when hovering over logo */
