@@ -69,10 +69,6 @@ ul {
     height: auto;
 }
 
-#headlist #a-title .dropdown-content, .dropdown-content a {
-    display: none;
-}
-
 #headlist a:hover {
     background-color: dodgerblue;
 }
@@ -105,15 +101,6 @@ ul {
     text-decoration: none;
 }
 
-#headlist li.dropdown:hover .dropdown-content, .dropdown-content a {
-    display: block;
-}
-
-#headlist a:active, #headlist li.dropdown:hover .dropbtn, .dropdown-content a:active {
-    background-color:navy;
-    color: aliceblue;
-}
-
 .dropdown-content a {
     display: block;
     color: navy;
@@ -125,6 +112,23 @@ ul {
 
 .dropdown-content a:hover {
     text-decoration: underline;
+}
+
+#headlist li.dropdown:hover .dropdown-content, .dropdown-content a {
+    display: block;
+}
+
+#headlist a:active, #headlist li.dropdown:hover .dropbtn, .dropdown-content a:active {
+    background-color:navy;
+    color: aliceblue;
+}
+
+#headlist #a-title .dropdown-content{
+    display: none;
+}
+
+#headlist #a-title .dropdown-content a {
+    display: block;
 }
 
 @media only screen and (max-width: 472px) { /* Use AccelerateAI logo itself as menu button */
@@ -150,7 +154,11 @@ ul {
         left: 0;
     }
 
-    #headlist #a-title:hover .dropdown-content, .dropdown-content a { /* Activate dropdown when hovering over logo */
+    #headlist #a-title:hover .dropdown-content { /* Activate dropdown when hovering over logo */
+        display: block;
+    }
+
+    #headlist #a-title:hover .dropdown-content a {
         display: block;
     }
 }
@@ -174,6 +182,14 @@ ul {
 
     #headlist li a.dropbtn {
         display: block;
+    }
+
+    #headlist #a-title .dropdown-content {
+        display: none;
+    }
+
+    #headlist #a-title .dropdown-content a {
+        display: none;
     }
 }
 
