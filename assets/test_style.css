@@ -29,6 +29,12 @@ code {
     font-size: large;
 }
 
+img {
+    max-width:100%;
+    height: auto;
+    margin: auto;
+}
+
 p {
     margin: 10px 5px 20px;
 }
@@ -148,6 +154,8 @@ ul {
         display: block;
         border: none;
         margin: auto;
+        padding: auto;
+        float: none;
     }
 
     #headlist li a.dropbtn {
