@@ -19,7 +19,7 @@ body {
 }
 
 pre {
-    margin: auto;
+    margin: 10px 15px 20px;
     border: none;
     overflow-x: auto;
     background-color: white;
@@ -241,7 +241,7 @@ h1 {
     color:navy;
     text-align: center;
     font-size: xx-large;
-    margin: 15px auto 30px;
+    margin: 15px 15px 30px;
     border-bottom: 6px double navy;
     padding: 5px;
 }
@@ -251,7 +251,7 @@ h2 {
     text-align: left;
     font-size: larger;
     border-bottom: 3px solid navy;
-    margin: 15px auto;
+    margin: 15px 15px 20px;
     padding: 5px;
 }
 
@@ -259,7 +259,7 @@ h3 {
     color:dodgerblue;
     text-align: left;
     font-size: large;
-    margin: 10px auto;
+    margin: 10px 15px 10px;
 }
 
 a {
