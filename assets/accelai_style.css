@@ -138,11 +138,26 @@ ul {
 
 #headlist #smallmenu {
     background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+#headlist #smallmenu a.dropbtn {
+    background-color: aliceblue;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
+
+#headlist #smallmenu:hover a.dropbtn {
+    background-color: dodgerblue;
 }
 
 #headlist #smallmenu a.dropbtn img {
     max-width: 25%;
     height: auto;
+    margin: 0px;
+    padding: 5px;
 }
 
 #headlist #smallmenu .dropdown-content {
@@ -166,6 +181,7 @@ ul {
         margin: auto;
         padding: auto;
         float: none;
+        display: inline-block;
     }
 
     #headlist #logo #a-title {
@@ -212,7 +228,11 @@ ul {
         display: block;
     }
 
-    #headlist #a-title {
+    #headlist #logo {
+        display: inline-block;
+    }
+
+    #headlist #logo #a-title {
         display: block;
     }
 
