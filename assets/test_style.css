@@ -153,12 +153,15 @@ ul {
         display: none;
     }
 
-    #headlist #logo #a-title {
-        display: block;
-        border: none;
+    #headlist #logo {
         margin: auto;
         padding: auto;
         float: none;
+    }
+
+    #headlist #logo #a-title {
+        display: block;
+        border: none;
     }
 
     #headlist li a.dropbtn {
