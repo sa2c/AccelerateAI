@@ -4,6 +4,9 @@ div {
     margin: 10px auto;
     padding: 10px auto;
     border-radius: 5px;
+}
+
+.container {
     border: 3px solid dodgerblue;
 }
 
