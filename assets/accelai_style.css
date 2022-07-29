@@ -136,15 +136,15 @@ ul {
     color: aliceblue;
 }
 
-#headlist #logo .dropdown-content{
+#headlist #smallmenu .dropdown-content {
     display: none;
 }
 
-#headlist #logo .dropdown-content a {
+#headlist #smallmenu .dropdown-content a {
     display: block;
 }
 
-@media only screen and (max-width: 472px) { /* Use AccelerateAI logo itself as menu button */
+@media only screen and (max-width: 472px) { /* Use small icon for menu button */
     html {
         font-size: medium;
     }
@@ -164,29 +164,34 @@ ul {
         border: none;
     }
 
+    #headlist #logo #a-title img {
+        max-width: 80%;
+        height: auto;
+    }
+
     #headlist li a.dropbtn {
         display: none;
     }
 
-    #headlist #logo .dropdown-content {
-        left: 0;
-    }
-
-    #headlist #logo:hover .dropdown-content { /* Activate dropdown when hovering over logo */
+    #headlist #smallmenu {
         display: block;
     }
 
-    #headlist #logo:hover .dropdown-content a {
+    #headlist #smallmenu a.dropbtn {
+        display: block;
+    }
+
+    #headlist #smallmenu .dropbtn:hover .dropdown-content, .dropdown-content a{
         display: block;
     }
 }
 
-@media only screen and (min-width: 472px) { /* Phones and small devices - use hamburger menu, keep AccelerateAI logo*/
+@media only screen and (min-width: 472px) { /* Phones and small devices - use mid-size navigation menu, keep AccelerateAI logo*/
     html {
         font-size: medium;
     }
 
-    #headlist a { /* Hide navbar buttons in favour of hamburger menu */
+    #headlist a { /* Hide navbar buttons in favour of navigation menu */
         display: none;
     }
 
@@ -201,12 +206,12 @@ ul {
     #headlist li a.dropbtn {
         display: block;
     }
-    /* No need for logo dropdown */
-    #headlist #logo .dropdown-content {
+    /* No need for small menu dropdown */
+    #headlist #smallmenu .dropdown-content {
         display: none;
     }
 
-    #headlist #logo .dropdown-content a {
+    #headlist #smallmenu .dropdown-content a {
         display: none;
     }
 }
