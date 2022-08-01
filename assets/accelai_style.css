@@ -105,8 +105,8 @@ ul {
     padding: 0px;
     border: none;
     cursor: pointer;
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 25px;
+    max-height: 25px;
 }
 
 #headlist li.dropdown a.dropbtn img {
@@ -151,7 +151,7 @@ ul {
     color: aliceblue;
 }
 
-@media only screen and (max-width: 472px) { /* Use small icon for menu button */
+@media only screen and (max-width: 472px) { /* Smaller logo and menu icon */
     html {
         font-size: medium;
     }
@@ -175,7 +175,7 @@ ul {
     }    
 }
 
-@media only screen and (min-width: 472px) { /* Phones and small devices - use mid-size navigation menu, keep AccelerateAI logo*/
+@media only screen and (min-width: 472px) { /* Full size logo, dropdown navigation */
     html {
         font-size: medium;
     }
@@ -200,19 +200,22 @@ ul {
 
     #headlist li.dropdown a.dropbtn {
         display: block;
+        max-width: 30px;
+        max-height: 30px;
     }
 }
 
-@media only screen and (min-width: 1500px) { /* Laptops and landscape - use full navbar*/
+@media only screen and (min-width: 1000px) { /* Wide screens - use full size navbar */
     html {
         font-size: large;
     }
 
     #headlist a { /* Can now fit all items on navbar */
         display: block;
+        font-size: large;
     }
 
-    #headlist #logo #a-title {
+    #headlist #logo {
         border-right: 3px double dodgerblue;
     }
 
