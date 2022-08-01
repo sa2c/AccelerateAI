@@ -100,12 +100,11 @@ ul {
 
 #headlist li.dropdown a.dropbtn {
     background-color: aliceblue;
-    margin: auto 0px;
-    padding: 5px;
+    margin: auto 5px;
+    padding: auto 0px;
     border: none;
     cursor: pointer;
     max-width: 40px;
-    height: auto;
 }
 
 #headlist li.dropdown a.dropbtn img {
