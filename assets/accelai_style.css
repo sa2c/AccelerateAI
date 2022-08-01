@@ -241,6 +241,7 @@ ul {
     #headlist a { /* Can now fit all items on navbar */
         display: block;
         font-size: x-large;
+        padding: 6px 10px;
     }
 }
 
