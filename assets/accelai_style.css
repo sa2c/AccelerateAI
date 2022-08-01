@@ -90,6 +90,20 @@ ul {
     display: inline-block;
 }
 
+#headlist li.dropdown a.dropbtn img {
+    max-width: 25%;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+}
+
+#headlist li.dropdown a.dropbtn {
+    background-color: aliceblue;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
+
 #headlist li.dropdown .dropdown-content {
     display: none;
     position: absolute;
@@ -100,18 +114,6 @@ ul {
     padding: 5px auto 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     min-width: 160px;
-}
-
-#headlist li a.dropbtn {
-    background-color: dodgerblue;
-    color: white;
-    text-align: center;
-    padding: 8px 10px 9px;
-    margin: 0;
-    font-size: x-large;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
 }
 
 .dropdown-content a {
@@ -136,38 +138,6 @@ ul {
     color: aliceblue;
 }
 
-#headlist #smallmenu {
-    background-color: aliceblue;
-    margin: 0;
-    padding: 0;
-}
-
-#headlist #smallmenu a.dropbtn {
-    background-color: aliceblue;
-    margin: 0;
-    border: none;
-    cursor: pointer;
-}
-
-#headlist #smallmenu a.dropbtn img, #headlist #smallmenu:hover a.dropbtn img {
-    max-width: 25%;
-    height: auto;
-    margin: 0px;
-    padding: 5px;
-}
-
-#headlist #smallmenu:hover a.dropbtn {
-    background-color: dodgerblue;
-}
-
-#headlist #smallmenu .dropdown-content {
-    display: none;
-}
-
-#headlist #smallmenu .dropdown-content a {
-    display: block;
-}
-
 @media only screen and (max-width: 472px) { /* Use small icon for menu button */
     html {
         font-size: medium;
@@ -186,28 +156,12 @@ ul {
         border: none;
     }
 
-    #headlist #logo #a-title img { 
+    #headlist #logo #a-title img { /* Shrink logo to fit menu button on bar*/
         max-width: 80%;
         height: auto;
     }
 
-    #headlist li a.dropbtn {
-        display: none;
-    }
-
-    #headlist #smallmenu {
-        display: block;
-    }
-
-    #headlist #smallmenu a.dropbtn {
-        display: block;
-    }
-
-    #headlist #smallmenu:hover .dropdown-content {
-        display: block;
-    }
-
-    #headlist #smallmenu:hover .dropdown-content a {
+    #headlist li.dropdown a.dropbtn {
         display: block;
     }
 }
@@ -235,26 +189,11 @@ ul {
 
     #headlist #logo #a-title img {
         max-width: 100%;
+        height: auto;
     }
 
     #headlist li a.dropbtn {
         display: block;
-    }
-    /* No need for small menu dropdown */
-    #headlist #smallmenu {
-        display: none;
-    }
-
-    #headlist #smallmenu a.dropbtn {
-        display: none;
-    }
-
-    #headlist #smallmenu .dropdown-content {
-        display: none;
-    }
-
-    #headlist #smallmenu .dropdown-content a {
-        display: none;
     }
 }
 
@@ -267,7 +206,7 @@ ul {
         display: block;
     }
 
-    #headlist li.dropdown {
+    #headlist li.dropdown { /* No longer require dropdown menu */
         display: none;
     }
 
