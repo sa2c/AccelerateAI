@@ -152,6 +152,10 @@ ul {
     color: aliceblue;
 }
 
+#headlist li.dropdown:active .dropdown-content, .dropdown-content a { /* click menu icon again to hide */
+    display: none;
+}
+
 @media only screen and (max-width: 472px) { /* Smaller logo and menu icon */
     html {
         font-size: medium;
