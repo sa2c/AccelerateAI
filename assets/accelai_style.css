@@ -149,15 +149,15 @@ ul {
     cursor: pointer;
 }
 
-#headlist #smallmenu:hover a.dropbtn {
-    background-color: dodgerblue;
-}
-
-#headlist #smallmenu a.dropbtn img {
+#headlist #smallmenu a.dropbtn img, #headlist #smallmenu:hover a.dropbtn img {
     max-width: 25%;
     height: auto;
     margin: 0px;
     padding: 5px;
+}
+
+#headlist #smallmenu:hover a.dropbtn {
+    background-color: dodgerblue;
 }
 
 #headlist #smallmenu .dropdown-content {
@@ -178,9 +178,6 @@ ul {
     }
 
     #headlist #logo {
-        margin: auto;
-        padding: auto;
-        float: none;
         display: inline-block;
     }
 
@@ -189,7 +186,7 @@ ul {
         border: none;
     }
 
-    #headlist #logo #a-title img {
+    #headlist #logo #a-title img { 
         max-width: 80%;
         height: auto;
     }
@@ -234,6 +231,10 @@ ul {
 
     #headlist #logo #a-title {
         display: block;
+    }
+
+    #headlist #logo #a-title img {
+        max-width: 100%;
     }
 
     #headlist li a.dropbtn {
