@@ -103,8 +103,8 @@ ul {
 #headlist li.dropdown a.dropbtn img {
     max-width: 25%;
     height: auto;
-    margin: 0px;
-    padding: 0px;
+    margin: 0px auto;
+    padding: 0px auto;
 }
 
 #headlist li.dropdown .dropdown-content {
@@ -116,7 +116,6 @@ ul {
     border-radius: 0px 0px 5px 5px;
     padding: 5px auto 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    min-width: 160px;
 }
 
 .dropdown-content a {
