@@ -88,20 +88,23 @@ ul {
 
 #headlist li.dropdown {
     display: inline-block;
+    padding: 0px;
+    margin: 0px;
+}
+
+#headlist li.dropdown a.dropbtn {
+    background-color: aliceblue;
+    margin: 0px auto;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 #headlist li.dropdown a.dropbtn img {
     max-width: 25%;
     height: auto;
     margin: 0px;
-    padding: 5px;
-}
-
-#headlist li.dropdown a.dropbtn {
-    background-color: aliceblue;
-    margin: 0;
-    border: none;
-    cursor: pointer;
+    padding: 0px;
 }
 
 #headlist li.dropdown .dropdown-content {
@@ -151,10 +154,6 @@ ul {
         display: block;
     }
 
-    #headlist #logo {
-        display: inline-block;
-    }
-
     #headlist #logo #a-title {
         display: block;
         border: none;
@@ -165,11 +164,13 @@ ul {
         height: auto;
     }
 
-    #headlist li.dropdown a.dropbtn {
-        display: block;
+    #headlist li.dropdown {
+        right: 0;
     }
 
-    
+    #headlist li.dropdown a.dropbtn {
+        display: block;
+    }    
 }
 
 @media only screen and (min-width: 472px) { /* Phones and small devices - use mid-size navigation menu, keep AccelerateAI logo*/
@@ -183,10 +184,6 @@ ul {
 
     #headlist li.dropdown .dropdown-content a {
         display: block;
-    }
-
-    #headlist #logo {
-        display: inline-block;
     }
 
     #headlist #logo #a-title {
