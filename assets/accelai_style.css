@@ -133,7 +133,7 @@ ul {
     display: block;
 }
 
-#headlist a:active, #headlist li.dropdown:hover .dropbtn, .dropdown-content a:active {
+#headlist a:active, .dropdown-content a:active {
     background-color:navy;
     color: aliceblue;
 }
@@ -145,6 +145,10 @@ ul {
 
     #headlist a { /* Hide navbar buttons in favour of dropdown menu */
         display: none;
+    }
+
+    #headlist li.dropdown .dropdown-content a {
+        display: block;
     }
 
     #headlist #logo {
@@ -164,6 +168,8 @@ ul {
     #headlist li.dropdown a.dropbtn {
         display: block;
     }
+
+    
 }
 
 @media only screen and (min-width: 472px) { /* Phones and small devices - use mid-size navigation menu, keep AccelerateAI logo*/
@@ -185,6 +191,7 @@ ul {
 
     #headlist #logo #a-title {
         display: block;
+        border: none;
     }
 
     #headlist #logo #a-title img {
@@ -192,7 +199,7 @@ ul {
         height: auto;
     }
 
-    #headlist li a.dropbtn {
+    #headlist li.dropdown a.dropbtn {
         display: block;
     }
 }
