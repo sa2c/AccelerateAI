@@ -65,6 +65,7 @@ ul {
 #headlist a {
     color: navy;
     padding: 8px 10px 9px;
+    margin: auto;
     text-decoration: none;
     font-size: x-large;
 }
@@ -75,7 +76,7 @@ ul {
 
 #headlist #logo #a-title {
     padding: 0px;
-    margin: 5px 0px;
+    margin: 0px;
     max-width: 300px;
 }
 
@@ -209,6 +210,10 @@ ul {
 
     #headlist a { /* Can now fit all items on navbar */
         display: block;
+    }
+
+    #headlist #logo #a-title {
+        border-right: 3px double dodgerblue;
     }
 
     #headlist li.dropdown { /* No longer require dropdown menu */
