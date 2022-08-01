@@ -78,7 +78,10 @@ ul {
 }
 
 #headlist #logo #a-title img {
+    display: block;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
 }
 
@@ -89,7 +92,7 @@ ul {
 #headlist li.dropdown {
     display: inline-block;
     padding: 0px;
-    margin: 0px;
+    margin: 0px auto;
 }
 
 #headlist li.dropdown a.dropbtn {
@@ -101,10 +104,11 @@ ul {
 }
 
 #headlist li.dropdown a.dropbtn img {
+    display: block;
     max-width: 25%;
     height: auto;
-    margin: 0px auto;
-    padding: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #headlist li.dropdown .dropdown-content {
@@ -158,15 +162,6 @@ ul {
         border: none;
     }
 
-    #headlist #logo #a-title img { /* Shrink logo to fit menu button on bar*/
-        max-width: 80%;
-        height: auto;
-    }
-
-    #headlist li.dropdown {
-        right: 0;
-    }
-
     #headlist li.dropdown a.dropbtn {
         display: block;
     }    
@@ -188,11 +183,6 @@ ul {
     #headlist #logo #a-title {
         display: block;
         border: none;
-    }
-
-    #headlist #logo #a-title img {
-        max-width: 100%;
-        height: auto;
     }
 
     #headlist li.dropdown a.dropbtn {
