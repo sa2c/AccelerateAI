@@ -76,6 +76,7 @@ ul {
 #headlist #logo #a-title {
     padding: auto 0px;
     margin: auto 5px;
+    max-width: 300px;
 }
 
 #headlist #logo #a-title img {
@@ -99,10 +100,12 @@ ul {
 
 #headlist li.dropdown a.dropbtn {
     background-color: aliceblue;
-    margin: 0px auto;
+    margin: auto 0px;
     padding: 5px;
     border: none;
     cursor: pointer;
+    max-width: 40px;
+    height: auto;
 }
 
 #headlist li.dropdown a.dropbtn img {
@@ -162,10 +165,7 @@ ul {
     #headlist #logo #a-title {
         display: block;
         border: none;
-    }
-
-    #headlist #logo #a-title img {
-        max-width: 80%;
+        max-width: 220px;
     }
 
     #headlist li.dropdown a.dropbtn {
@@ -189,6 +189,7 @@ ul {
     #headlist #logo #a-title {
         display: block;
         border: none;
+        max-width: 100%;
     }
 
     #headlist #logo #a-title img {
