@@ -64,7 +64,7 @@ ul {
 
 #headlist a {
     color: navy;
-    padding: auto 10px;
+    padding: 8px 10px 9px;
     text-decoration: none;
     font-size: x-large;
 }
@@ -74,15 +74,15 @@ ul {
 }
 
 #headlist #logo #a-title {
-    padding: auto 0px;
-    margin: auto 5px;
+    padding: 0px;
+    margin: 5px 0px;
     max-width: 300px;
 }
 
 #headlist #logo #a-title img {
     display: block;
     max-width: 100%;
-    margin: auto 5px;
+    margin: 0px;
     height: auto;
     object-fit: scale-down;
 }
@@ -100,18 +100,20 @@ ul {
 
 #headlist li.dropdown a.dropbtn {
     background-color: aliceblue;
-    margin: auto 5px;
-    padding: auto 0px;
+    margin: 5px 0px;
+    padding: 0px;
     border: none;
     cursor: pointer;
     max-width: 40px;
+    max-height: 40px;
 }
 
 #headlist li.dropdown a.dropbtn img {
     display: block;
-    max-width: 25%;
+    max-width: 100%;
     height: auto;
-    margin: auto 5px;
+    margin: 0px;
+    padding: 0px;
     object-fit: scale-down;
 }
 
