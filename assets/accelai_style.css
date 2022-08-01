@@ -71,7 +71,8 @@ ul {
 }
 
 #headlist #logo {
-    margin: 5px;
+    margin: 0px;
+    padding: 5px;
 }
 
 #headlist #logo #a-title {
@@ -205,7 +206,7 @@ ul {
     }
 }
 
-@media only screen and (min-width: 1000px) { /* Wide screens - use full size navbar */
+@media only screen and (min-width: 1150px) { /* Wide screens - use full size navbar */
     html {
         font-size: large;
     }
@@ -229,6 +230,17 @@ ul {
     
     #headlist a {
         border-right: 3px double dodgerblue;
+    }
+}
+
+@media only screen and (min-width: 1500px) { /* Wide screens - use full size navbar, larger text */
+    html {
+        font-size: large;
+    }
+
+    #headlist a { /* Can now fit all items on navbar */
+        display: block;
+        font-size: x-large;
     }
 }
 
