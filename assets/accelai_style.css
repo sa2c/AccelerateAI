@@ -162,6 +162,10 @@ ul {
         border: none;
     }
 
+    #headlist #logo #a-title img {
+        max-width: 80%;
+    }
+
     #headlist li.dropdown a.dropbtn {
         display: block;
     }    
@@ -183,6 +187,10 @@ ul {
     #headlist #logo #a-title {
         display: block;
         border: none;
+    }
+
+    #headlist #logo #a-title img {
+        max-width: 100%;
     }
 
     #headlist li.dropdown a.dropbtn {
