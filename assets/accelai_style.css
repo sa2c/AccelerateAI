@@ -143,9 +143,9 @@ ul {
     text-decoration: underline;
 }
 
-/* #headlist li.dropdown:hover .dropdown-content, .dropdown-content a {
+#headlist li.dropdown:hover .dropdown-content, .dropdown-content a {
     display: block;
-} */
+}
 
 #headlist a:active, .dropdown-content a:active {
     background-color:navy;
@@ -156,11 +156,11 @@ ul {
     display: none;
 }
 
-.input-toggler {
+#headlist .input-toggler {
     display: none;
 }
 
-.input-toggler:checked ~ .dropdown-content, .dropdown-content a {
+#headlist .input-toggler:checked ~ .dropdown-content, .dropdown-content a {
     display: block;
 }
 
