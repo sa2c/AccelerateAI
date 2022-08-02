@@ -143,9 +143,9 @@ ul {
     text-decoration: underline;
 }
 
-#headlist li.dropdown:hover .dropdown-content, .dropdown-content a {
+/* #headlist li.dropdown:hover .dropdown-content, .dropdown-content a {
     display: block;
-}
+} */
 
 #headlist a:active, .dropdown-content a:active {
     background-color:navy;
@@ -154,6 +154,14 @@ ul {
 
 #headlist li.dropdown:active .dropdown-content, .dropdown-content a { /* click menu icon again to hide */
     display: none;
+}
+
+.input-toggler {
+    display: none;
+}
+
+.input-toggler:checked ~ .dropdown-content, .dropdown-content a {
+    display: block;
 }
 
 @media only screen and (max-width: 472px) { /* Smaller logo and menu icon */
