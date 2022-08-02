@@ -160,7 +160,7 @@ ul {
     display: none;
 }
 
-.input-toggler:checked ~ .dropdown-content, .dropdown-content a {
+#headlist li.dropdown .input-toggler:checked .dropdown-content, .dropdown-content a {
     display: block;
 }
 
@@ -183,7 +183,7 @@ ul {
         max-width: 220px;
     }
 
-    #headlist li.dropdown a.dropbtn {
+    #headlist li.dropdown .dropbtn {
         display: block;
     }    
 }
@@ -211,7 +211,7 @@ ul {
         max-width: 100%;
     }
 
-    #headlist li.dropdown a.dropbtn {
+    #headlist li.dropdown .dropbtn {
         display: block;
         max-width: 30px;
         max-height: 30px;
@@ -236,7 +236,7 @@ ul {
         display: none;
     }
 
-    #headlist li a.dropbtn {
+    #headlist li .dropbtn {
         display: none;
     }
     
