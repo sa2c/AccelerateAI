@@ -24,7 +24,7 @@ Consequences of this structure:
 * Half of the CPU cores are not directly connected to GPUs. They can be left idle, or can be grouped together with the adjacent node that has a GPU attached.
   * For example, a process using GPUs 0 and 1 could be pinned to cores 16&ndash;31.
 * When parallelising across multiple nodes, processes on GPUs 0&ndash3 will get quicker access to the network than those on GPUs 4&ndash;7.
-* As a result of the above, by default you are restricted from submitting jobs that will use more than four GPUs or one node. If you think you would benefit from scaling jobs across larger numbers of GPUs, please talk to [SA2C support](sa2csupport), and the RSE team will work with you to verify that your code will scale efficiently.
+* As a result of the above, by default you are restricted from submitting jobs that will use more than four GPUs or one node. If you think you would benefit from scaling jobs across larger numbers of GPUs, please talk to [SA2C support][sa2csupport], and the RSE team will work with you to verify that your code will scale efficiently.
 
 ## Interactive/testing node
 
