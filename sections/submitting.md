@@ -32,6 +32,19 @@ Details on how to use Slurm on Supercomputing Wales can be found at the [Superco
 * [Using GPUs][slurm-gpus]
 
 To get started quickly, you can base your submission scripts on the templates below.
+To use one,
+copy its contents into a file called,
+for example,
+`submit.sh`,
+modify it to run the commands you need,
+and submit it with the command:
+
+```shellsession
+$ sbatch submit.sh
+```
+
+For further information,
+see the documentation linked above.
 
 ## Queues and time limits
 
