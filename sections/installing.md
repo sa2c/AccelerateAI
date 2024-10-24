@@ -33,10 +33,6 @@ $ module load anaconda/2024.06
 $ source activate
 ```
 
-To install the GPU version of Tensorflow,
-we need to allow Conda to locate CUDA,
-using
-
 Then, for example, to create a new environment called `ai_2024`,
 with Python 3.12 and Tensorflow 2.17.0,
 run the command:
