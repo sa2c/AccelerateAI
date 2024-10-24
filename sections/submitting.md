@@ -201,7 +201,7 @@ so that we can help you check that your workload scales up on AccelerateAI.
 [run-slurm]: https://portal.supercomputing.wales/index.php/index/submitting-jobs/
 [sa2c-support]: mailto:sa2c-support@swansea.ac.uk
 [slurm-directives]: https://portal.supercomputing.wales/index.php/index/slurm/migrating-jobs/
-[slurm-gpus]: Using GPUs
+[slurm-gpus]: https://portal.supercomputing.wales/index.php/using-gpus/
 [slurm]: https://slurm.schedmd.com
 [swc-shell]: https://swcarpentry.github.io/shell-novice
 [tf-checkpointing]: https://www.tensorflow.org/guide/checkpoint
