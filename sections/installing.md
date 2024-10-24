@@ -7,8 +7,9 @@ commercial packages.
 To see a list of software available on the system, use the `module avail` command.
 
 If there is software you want to use on AccelerateAI and you think other research
-groups or projects woudl also benefit from, we can install it as a module. please
-contact [SA2C support][sa2c-support] to discuss this.
+groups or projects would also benefit from,
+we can install it as a module.
+Please contact [Supercomputing Wales support][scw-support] to discuss this.
 
 If it is likely to only be useful to you or your project, then we recommend
 installing software into your own home directory.
@@ -16,7 +17,8 @@ To install your own software (in the broadest sense&mdash;from a small Python
 script to a large simulation suite), then please see the more detailed sections below.
 
 If you encounter difficulty installing software, please contact
-[SA2C Support][sa2c-support], who will be able to assist and advise.
+[Supercomputing Wales Support][scw-support],
+who will be able to assist and advise.
 
 ## Python
 
@@ -27,25 +29,36 @@ dependencies.
 To load Conda and prepare it for use, use the two commands:
 
 ```
-$ module load anaconda/2021.05
+$ module load anaconda/2024.06
 $ source activate
 ```
 
-Then, for example, to create a new environment called `ai_2021`, with Python 3.9
-and Tensorflow 2.6.1, run the command:
+To install the GPU version of Tensorflow,
+we need to allow Conda to locate CUDA,
+using
+
+Then, for example, to create a new environment called `ai_2024`,
+with Python 3.12 and Tensorflow 2.17.0,
+run the command:
 
 ```
-$ conda create -n ai_2021 python=3.9 tensorflow-gpu=2.6.1
+$ CONDA_OVERRIDE_CUDA="12.4" conda create -n ai_2024 -c conda-forge python=3.12 tensorflow-gpu=2.17.0
 ```
 
-Notice that we request `tensorflow-gpu` rather than `tensorflow`; this meta-package
-automatically installs the dependencies to ensure that the version of Tensorflow
+Notice that we request `tensorflow-gpu` rather than `tensorflow`;
+this meta-package automatically installs the dependencies
+to ensure that the version of Tensorflow
 installed will run on the GPU.
+The same is true for other libraries;
+for example,
+you would want `pytorch-gpu`,
+not `pytorch`,
+to run on the GPU on AccelerateAI.
 
 To active this environment, then run:
 
 ```
-$ conda activate ai_2021
+$ conda activate ai_2024
 ```
 
 You can install other dependencies into your Conda environment using either `conda`
@@ -69,10 +82,11 @@ if you have exceeded your allocation. If so, then options are:
 * create the environment in your `/scratch` directory, if you will not use it
   long-term and it can be deleted within a few weeks:
   ```
-  $ conda create -p /scratch/s.your.user.name/ai_2021_env
+  $ conda create -p /scratch/s.your.user.name/ai_2024_env
   ```
   or,
-* contact [SA2C Support][sa2c-support] to request an increase in your file
+* contact [Supercomputing Wales Support][scw-support]
+  to request an increase in your file
   count quota.
 
 
@@ -93,7 +107,7 @@ A variety of compilers are installed on the system. Useful ones on AccelerateAI 
   CUDA or NVHPC.
 
 If you need more help getting started with compiling, please get in touch with
-[SA2C support][sa2c-support].
+[Supercomputing Wales support][scw-support].
 
 ## MPI
 
@@ -106,4 +120,4 @@ NVIDIA HPC SDK.
 More CUDA-aware versions of MPI are currently being prepared for installation.
 
 
-[sa2c-support]: mailto:sa2c-support@swansea.ac.uk
+[scw-support]: mailto:support@supercomputingwales.ac.uk
