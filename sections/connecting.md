@@ -19,11 +19,22 @@ If you ever forget your password and need to reset it, please follow the above s
 
 Connection is via SSH to `sunbird.swansea.ac.uk`, using the username and password discussed above. For more details on connecting, please visit the [Supercomputing Wales Portal page on accessing the system][portal-access].
 
+Note that connection is only permitted from
+the networks of Swansea, Aberystwyth, Bangor, and Cardiff universities,
+or from their VPNs.
+For external collaborators,
+you should have received a Swansea University VPN account;
+if you have not received one,
+please [open a Supercomputing Wales support ticket][scw-ticket].
+For details of the Swansea University VPN,
+please see [the VPN information page][ravpn].
+
 ## Locked out?
 
 If you repeatedly try to log in unsuccessfully (for example, you type the wrong password, or cancel logging in before submitting your password), then the system may lock you out. This will automatically reset after a few hours; if you need access more quickly, please raise a ticket with the [Supercomputing Wales service desk][scw-ticket]. To allow the support desk to assist as quickly as possible, please include [your IP address][whatsmyip] in your request.
 
 [myscw]: https://my.supercomputing.wales
 [portal-access]: https://portal.supercomputing.wales/index.php/index/accessing-the-system/
+[ravpn]: https://ravpn.swansea.ac.uk
 [scw-ticket]: https://portal.supercomputing.wales/index.php/index/submit-support-ticket/
 [whatsmyip]: https://www.whatsmyip.org
